@@ -1,0 +1,7 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div hx-get="/app1/hello" hx-swap="outerHTML" hx-trigger="load"></div>
